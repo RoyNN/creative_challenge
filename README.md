@@ -12,8 +12,11 @@ Therefore, it gives a total 16,777,216 colors. (16.7millions)
 
 
 It could be calculated as below:
+
 16,777,216 = 28 x 28 x 28 (three 8 bits) , OR 224 (So called 24-bit colors) , OR
+
 16,777,216 = (16x16) x (16x16) x (16x16) = 256x256x256 (three 2-digits hexadecimal number))
+
 (since 0x0~0xF has 16 combinations, then 0x00~0xFF has 16x16 = 256 combinations, refer to hexadecimal (wiki))
 
 
