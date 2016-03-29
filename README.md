@@ -12,6 +12,7 @@ Therefore, it gives a total 16,777,216 colors. (16.7millions)
 
 
 It could be calculated as below:
+
 16,777,216 = 28 x 28 x 28 (three 8 bits) , OR 224 (So called 24-bit colors) , OR
 
 16,777,216 = (16x16) x (16x16) x (16x16) = 256x256x256 (three 2-digits hexadecimal number))
@@ -24,3 +25,4 @@ With using C++, we could simply produce 16.7millions different colors (1x1 pixel
 First of all, to simplify the effort, we use a header from a 4096x4096 24bits-BMP image as header template. (If you require a more advanced control, such as width & height, color bit-depth,etc., you need to google for a BMP file specification)
 
 Then, it is the time to loop out 3 colors(with increment) which they each have a range (0-255/0x00~0xFF). We use a "unsigned char" to represent a color, and write file using binary.
+
